@@ -6,9 +6,8 @@ def join_nested_strings(src)
   while row_index < src.count do
     inner_count = 0
   while inner_count < src[row_index].count do
-     if src[row_index][inner_count] == String
+     if src[row_index][inner_count].class == String
        str += src[row_index][inner_count]
-      # binding.pry
      end
     inner_count += 1
   end
