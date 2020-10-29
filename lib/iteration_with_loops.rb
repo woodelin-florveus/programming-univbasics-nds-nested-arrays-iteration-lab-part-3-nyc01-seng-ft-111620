@@ -13,7 +13,6 @@ def join_nested_strings(src)
   end
   count += 1
   end
-  total
 end
 
 # src will be an Array of Arrays of Strings and Integers
