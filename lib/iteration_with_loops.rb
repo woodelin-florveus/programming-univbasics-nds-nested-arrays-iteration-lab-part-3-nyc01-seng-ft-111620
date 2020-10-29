@@ -5,7 +5,7 @@ def join_nested_strings(src)
     inner_count = 0
   while inner_count < src[count].count do
      if src[count][inner_count] > 1
-       p
+       binding.pry
      end
     inner_count += 1
   end
