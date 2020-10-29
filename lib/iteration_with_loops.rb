@@ -15,7 +15,6 @@ while count < src.count do
     end
     inner_count += 1
   end
-  new_arr
   count += 1
 end
   new_arr
