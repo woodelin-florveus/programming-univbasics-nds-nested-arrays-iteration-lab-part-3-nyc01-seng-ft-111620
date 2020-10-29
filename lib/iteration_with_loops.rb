@@ -1,12 +1,11 @@
 def join_nested_strings(src)
   count = 0
-
+  str = ""
   while count < src.count do
     inner_count = 0
-    str = ""
   while inner_count < src[count].count do
-     if src[count][inner_count] == ""
-       
+     if src[count][inner_count] > 1
+       p
      end
     inner_count += 1
   end
