@@ -1,17 +1,19 @@
 require "pry"
 
 def join_nested_strings(src)
-  count = 0
+  row_index = 0
   str = ""
   while count < src.count do
     inner_count = 0
-  while inner_count < src[count].count do
-     if src[count][inner_count] == ""
-      binding.pry
+  while inner_count < src[row_index].count do
+     if src[row_index][inner_count] == String
+       str += src[row_index][inner_count]
+      # binding.pry
      end
     inner_count += 1
   end
-  count += 1
+  row_index += 1
+  str
   end
 end
 
