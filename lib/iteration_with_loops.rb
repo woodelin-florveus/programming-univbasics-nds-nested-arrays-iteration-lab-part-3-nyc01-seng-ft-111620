@@ -8,9 +8,9 @@ new_arr = []
 
 while count < src.count do
   inner_count = 0
-  str = ""
+
   while inner_count < src[count].count do
-    if src[count][inner_count] == str
+    if src[count][inner_count] == ""
       new_arr << src[count][inner_count]
     end
     inner_count += 1
